@@ -1,0 +1,5 @@
+#!/bin/bash
+
+num_args=$#
+
+echo "The number of arguments is $num_args"
