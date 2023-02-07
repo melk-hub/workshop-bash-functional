@@ -1,0 +1,9 @@
+#!/bin/bash
+
+do_op () {
+  make
+  result=$(./do_op "$@")
+  echo "The result of the do-op is $result"
+}
+
+do_op "$1"
